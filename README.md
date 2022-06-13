@@ -2,7 +2,7 @@ __Você precisa criar um bot no [@botfather](https://t.me/botfather) para fazer 
 
 Instalação simples, apenas execute esse codigo a sua vps para que o seu bot começe a funcionar, durante a instalação será preciso fornescer algumas informações que o bot ira precisar.
 
-```wget https://raw.githubusercontent.com/Rickz777/ferramentas/main/BotSSH/iniciar.sh -O iniciar.sh; chmod +x iniciar.sh; ./iniciar.sh```
+```wget https://raw.githubusercontent.com/ECr34T1v3/BotSSH/main/iniciar.sh -O iniciar.sh; chmod +x iniciar.sh; ./iniciar.sh```
 
 
 Com esse script você terá um bot de contas SSH gratís e funçional.
@@ -14,3 +14,5 @@ __Pacotes nescessarios:__
 - redis-server
 - screen
 - zip
+
+Créditos: Rickz777

@@ -10,7 +10,7 @@ if [ -e "dadosBot.ini" ] ; then
 
 	screen -X -S bot quit > /dev/null
 	screen -dmS bot php bot.php
-	echo "Bot foi reiniciado e está executano em segundo plano"
+	echo "Bot foi reiniciado e está executando em segundo plano"
 
 else
 
@@ -31,7 +31,7 @@ apt-get install redis -y > /dev/null 2>&1
 apt-get install screen -y > /dev/null 2>&1
 apt-get install zip -y > /dev/null 2>&1
 
-wget https://www.dropbox.com/s/j9bpk6m27egkwkp/gerarusuario-sshplus.sh?dl=0 -O gerarusuario.sh; chmod +x gerarusuario.sh > /dev/null
+wget https://www.dropbox.com/s/l0q7ni952ww92um/gerarusuario-sshplus.sh?dl=0 -O gerarusuario.sh; chmod +x gerarusuario.sh > /dev/null
 
 wget https://github.com/Rickz777/ferramentas/raw/main/BotSSH/admysshbot.zip -O bot.zip && unzip bot.zip > /dev/null
 
@@ -53,6 +53,6 @@ screen -dmS bot php bot.php
 rm bot.zip
 
 echo "Pronto, o bot esta executando em segundo plano
-Desenvolvedor: @rickcloud"
+Desenvolvedor: @rickcloud - Modificado por @ECr34T1v3"
 
 fi
